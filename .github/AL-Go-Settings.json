@@ -1,0 +1,28 @@
+{
+  "incrementalBuilds": {
+    "onPush": true
+  },
+  "useCompilerFolder": true,
+  "conditionalSettings": [
+    {
+      "settings": {
+        "workflowConcurrency": [
+          "group: ${{ github.workflow }}-${{ github.ref }}",
+          "cancel-in-progress: true"
+        ]
+      },
+      "workflows": [
+        "CI/CD"
+      ]
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/businesscentralapps/tmpDQopDM-Actions/main/settings.schema.json",
+  "MicrosoftTelemetryConnectionString": "",
+  "useApproximateVersion": true,
+  "githubRunner": "windows-latest",
+  "type": "PTE",
+  "githubRunnerShell": "powershell",
+  "doNotPublishApps": true,
+  "templateUrl": "https://github.com/businesscentralapps/tmpDQopDM-PTE@main",
+  "UseProjectDependencies": true
+}

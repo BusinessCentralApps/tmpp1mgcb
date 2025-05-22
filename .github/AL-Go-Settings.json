@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/businesscentralapps/tmpDQopDM-Actions/main/settings.schema.json",
   "incrementalBuilds": {
     "onPush": true
   },
@@ -16,7 +17,6 @@
       ]
     }
   ],
-  "$schema": "https://raw.githubusercontent.com/businesscentralapps/tmpDQopDM-Actions/main/settings.schema.json",
   "MicrosoftTelemetryConnectionString": "",
   "useApproximateVersion": true,
   "githubRunner": "windows-latest",
@@ -24,5 +24,6 @@
   "githubRunnerShell": "powershell",
   "doNotPublishApps": true,
   "templateUrl": "https://github.com/businesscentralapps/tmpDQopDM-PTE@main",
-  "UseProjectDependencies": true
+  "UseProjectDependencies": true,
+  "templateSha": "a7358e378cde0ce00c7f4142d7e0ef301094c323"
 }
